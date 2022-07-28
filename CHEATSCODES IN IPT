@@ -1,0 +1,1357 @@
+Main page 
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+div.gallery {
+  margin: 100px;
+  border: 5px solid #ccc;
+  float: left;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:50px; top:270px;
+}
+
+#hp1  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:10px; top:420px;
+}
+
+body{
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/024/538/892/large/pixel-jeff-version2.jpg?1582740652');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/295664370_377749041149496_1347373848852363317_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFQjGToX5MimM2VMscqPTpJG2MC_ZOCSOsbYwL9k4JI63ChkTD3YD4UmpQ2tiWp_SHO21xkzypRAzMuJRmuwy2s&_nc_ohc=KVTwev8jaOsAX-kCSjC&_nc_ht=scontent.fmnl25-1.fna&oh=03_AVK5XWkkwkPVBkPsEa3gTOntJHn0c6ydqQOfDAalZbbVwg&oe=6305D847">
+    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/295664370_377749041149496_1347373848852363317_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFQjGToX5MimM2VMscqPTpJG2MC_ZOCSOsbYwL9k4JI63ChkTD3YD4UmpQ2tiWp_SHO21xkzypRAzMuJRmuwy2s&_nc_ohc=KVTwev8jaOsAX-kCSjC&_nc_ht=scontent.fmnl25-1.fna&oh=03_AVK5XWkkwkPVBkPsEa3gTOntJHn0c6ydqQOfDAalZbbVwg&oe=6305D847" alt="Cinque Terre" width="400" height="400">
+  </a>
+  <div class="desc">MY SECOND ACTIVITY </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/295594175_746709963238814_9000118799597182298_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG93LN0534YWEStYsdwx-2JpYGr-XNccAqlgav5c1xwClf2-DDIsBKFhhPsGMTCFarycNXshUBdH3a8f8w5r--D&_nc_ohc=EXtZbaJTPEkAX-EQvHp&tn=YFDpzrR2-PWEs77P&_nc_ht=scontent.fmnl25-1.fna&oh=03_AVLwhJ7VeFjuPgrBedIey_iIDlcRa-4Hq8uWGREoHyCu6A&oe=6306B213">
+    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/295594175_746709963238814_9000118799597182298_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeG93LN0534YWEStYsdwx-2JpYGr-XNccAqlgav5c1xwClf2-DDIsBKFhhPsGMTCFarycNXshUBdH3a8f8w5r--D&_nc_ohc=EXtZbaJTPEkAX-EQvHp&tn=YFDpzrR2-PWEs77P&_nc_ht=scontent.fmnl25-1.fna&oh=03_AVLwhJ7VeFjuPgrBedIey_iIDlcRa-4Hq8uWGREoHyCu6A&oe=6306B213" alt="Forest" width="400" height="400">
+  </a>
+  <div class="desc">MY THIRD ACTIVITY</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/295928052_5670231986334278_6071273755406099857_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFPYE0IqSh2k3wRSK7Og4wliw0FopRIp5uLDQWilEinm7BkApSWhN5ZiI73Jbv7vQStu2EIZs1-BQCsO1NsGjDe&_nc_ohc=dMutB4cWdqQAX_5bWJN&_nc_ht=scontent.fmnl25-3.fna&oh=03_AVI2IrtK9_CEdBesqugn9Ufn89yy8LXMssGUQSiHiG3Wlg&oe=6304CEFC">
+    <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t1.15752-9/295928052_5670231986334278_6071273755406099857_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFPYE0IqSh2k3wRSK7Og4wliw0FopRIp5uLDQWilEinm7BkApSWhN5ZiI73Jbv7vQStu2EIZs1-BQCsO1NsGjDe&_nc_ohc=dMutB4cWdqQAX_5bWJN&_nc_ht=scontent.fmnl25-3.fna&oh=03_AVI2IrtK9_CEdBesqugn9Ufn89yy8LXMssGUQSiHiG3Wlg&oe=6304CEFC" alt="Northern Lights" width="400" height="400">
+  </a>
+  <div class="desc">MY FOURTH ACTIVITY</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/295818675_2837258896580535_3979132907285273399_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH7_NnV_JO9vuN27jXD9-3p5D6DZYbW99XkPoNlhtb31XSgnX7ntUWy_NtmfSAASpgnac8Es76NwCHhpTZ2_Xm6&_nc_ohc=-muF0uE4neQAX9tuJYx&_nc_ht=scontent.fmnl25-1.fna&oh=03_AVIM8WZWJL7waC5PFWpuDEY95AX0elX_wbP_A8nVa51HCQ&oe=630675CC">
+    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/295818675_2837258896580535_3979132907285273399_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH7_NnV_JO9vuN27jXD9-3p5D6DZYbW99XkPoNlhtb31XSgnX7ntUWy_NtmfSAASpgnac8Es76NwCHhpTZ2_Xm6&_nc_ohc=-muF0uE4neQAX9tuJYx&_nc_ht=scontent.fmnl25-1.fna&oh=03_AVIM8WZWJL7waC5PFWpuDEY95AX0elX_wbP_A8nVa51HCQ&oe=630675CC" alt="Mountains" width="400" height="400">
+  </a>
+  <div class="desc">MY  FIFTH ACTIVTY</div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/294601690_1744203059275623_5095204779255508351_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHPW9w7ypRVqZr_1PDPA2THhh9leP5v9yOGH2V4_m_3I0KmyfwtYKAw4RLBxrpRuir8mFnQ215bwi6lIubVTtkW&_nc_ohc=faIPcMI4SNwAX-33803&_nc_ht=scontent.fmnl4-2.fna&oh=03_AVK8ZleDKrjkgpJ689MkhbbJYHLQ1-S513mo-97cmOX3jA&oe=630192E7"  width="100" height="100"  id="hp"/>
+ 
+<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/294769506_593054995887657_4300581288959333451_n.jpg?stp=dst-jpg_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEFlbIgRZzVqhHzGrWx0OgoxFM9SyrpQFXEUz1LKulAVYY-OjRf1jxY4F_msj6MqMkdFw3bqfpxrCOvpo8bMeql&_nc_ohc=_VHBwpGXlI8AX-gLJAv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVJx8qQDX29nMTw7a5DJpQGtPAqb_FpAi9UIbzg1r6D0OA&oe=63031CA5"  width="200" height="200"  id="hp1"/>                                                                                                                                                                     
+  
+  <a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/activity%202.html">ACTIVITY 2</a>
+  <a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/index12.html">ACTIVITY 3</a>
+  <a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/profile.html">ACTIVITY 4</a>
+  <a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/family.html">ACTIVITY 5</a> 
+  
+</div>
+
+<div id="main">
+  
+  <span style="font-size:30px;cursor:pointer;color: red" onclick="openNav()">&#9776; MY ALL ACTIVITY</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+
+
+</script>
+   
+</body>
+</html>
+
+
+
+
+
+
+Menu
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:130px;
+}
+
+#hp1  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:250px;
+
+}
+
+#hp2  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:380px;
+
+}
+
+#hp3  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:500px;
+
+}
+
+
+div {
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+  margin-left: 300px;
+  background-color: lightblue;
+}
+
+
+
+body{
+    background-image: url('https://i.pinimg.com/originals/27/79/d4/2779d4c66acb4bc87a1c5a536e2832d1.gif');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+
+        <h1 style="text-align:center;color:red;border:BLACK 2px SOLID">MY MENU</h1>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/profile.html">
+<img src="https://i.pinimg.com/originals/3f/94/70/3f9470b34a8e3f526dbdb022f9f19cf7.jpg"  width="50" height="50" id="hp"/>
+
+               <h2 style="position:absolute; left:90px; top:80px;color:red">MY INFO</h2>
+
+<div style="text-align:center;color:red;font-family:fantasy"><p>  It's an incredible source of information on pretty much every field of human knowledge. You can browse through the many subreddits in philosophy, languages, coding, molecular gastronomy or whatever makes your mind hungry and t's able to identify not just what people like, but also what they don't like, in a timely and accurate manner. Using this information, Reddit can quickly sift through the millions of posts and draw eyes to content that other users have identified as valuable so Reddit thrives on anonymity, and it's a place where pretty much anything goes. There's a thriving niche community for seemingly every interest or topic. The best way to use Reddit is to find ways to contribute to subreddits and comment threads.</p></div>
+
+
+               <h2 style="position:absolute; left:70px; top:200px;color:red">FAVORITES</h2>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/index12.html">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSSoudTYJz5LLvMR_2eVrx03i3GSViv_ABg&usqp=CAU"  width="50" height="50" id="hp1"/>
+
+
+
+<div style="text-align:center;color:red;font-family:fantasy"><p>It has a huge selection of movies and TV shows old and new, tons of high-quality original programs, and an easy-to-navigate interface. Even though it no longer offers a free trial, it's worth trying Netflix for a month if you want something new to watch plus OK, this one is a no-brainer. I think even basic cable in our area costs upwards of $35+. Our Netflix membership is $7.99 per month. That’s for unlimited streaming of a wide array of TV shows, documentaries (one of my favorites!), movies, and, especially, quality programming for kids Liking a video is a quick way to let a video creator know that you enjoy their work. If you're signed in, liking a video will add it to your "Liked videos" playlist. If you're not the biggest fan of a video, disliking is one way to show your opinion</p></div>
+
+
+<h2 style="position:absolute; left:90px; top:330px;color:red">FAMILY</h2>
+
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/family.html">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl9LmyalCQ-Obr-KZ-iHPJv7T9xHvRtNJqXw&usqp=CAU"  width="50" height="50" id="hp2"/>
+
+
+<div style="text-align:center;color:red;font-family:fantasy"><p>It has a huge selection of movies and TV shows old and new, tons of high-quality original programs, and an easy-to-navigate interface. Even though it no longer offers a free trial, it's worth trying Netflix for a month if you want something new to watch plus OK, this one is a no-brainer. I think even basic cable in our area costs upwards of $35+. Our Netflix membership is $7.99 per month. That’s for unlimited streaming of a wide array of TV shows, documentaries (one of my favorites!), movies, and, especially, quality programming for kids Liking a video is a quick way to let a video creator know that you enjoy their work. If you're signed in, liking a video will add it to your "Liked videos" playlist. If you're not the biggest fan of a video, disliking is one way to show your opinion</p></div>
+
+<h2 style="position:absolute; left:60px; top:450px;color:red">ALL ACTIVITY</h2>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/try%20lng.html#">
+<img src="https://e7.pngegg.com/pngimages/163/941/png-clipart-computer-icons-x-mark-old-letters-angle-logo.png"  width="50" height="50" id="hp3"/>
+
+<div style="text-align:center;color:red;font-family:fantasy"><p>It has a huge selection of movies and TV shows old and new, tons of high-quality original programs, and an easy-to-navigate interface. Even though it no longer offers a free trial, it's worth trying Netflix for a month if you want something new to watch plus OK, this one is a no-brainer. I think even basic cable in our area costs upwards of $35+. Our Netflix membership is $7.99 per month. That’s for unlimited streaming of a wide array of TV shows, documentaries (one of my favorites!), movies, and, especially, quality programming for kids Liking a video is a quick way to let a video creator know that you enjoy their work. If you're signed in, liking a video will add it to your "Liked videos" playlist. If you're not the biggest fan of a video, disliking is one way to show your opinion</p></div>
+
+
+
+
+
+Family
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:295px; top:130px;
+}
+
+#hp1  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:595px; top:130px;
+}
+
+#hp2  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:895px; top:130px;
+}
+
+#hp3  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:100px;
+}
+
+#hp4  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:295px; top:600px;
+}
+
+#hp5 {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:595px; top:600px;
+}
+
+#hp6  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:895px; top:600px;
+}
+
+#hp7  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:220px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:100px;
+  width: 200px;
+  height: 550px;  
+} 
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:600px; top:100px;
+  width: 200px;
+  height: 550px;  
+} 
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:900px; top:100px;
+  width: 200px;
+  height: 550px;  
+} 
+
+body{
+    background-image: url('https://64.media.tumblr.com/1f9fad4122babea2155f82c637fedd97/e85b3bfde641c7cc-7a/s640x960/f929efe2e2cdca8993d19a40dac7718b0a7b8d61.gifv');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID">MY FAMILY</h1>
+
+
+<p id="rcorners1"> </p>
+<p id="rcorners2"> </p>
+<p id="rcorners3"> </p>
+
+
+
+
+
+
+<div style = "position:absolute; left:610px; top:400px; color:red;font-family:fantasy; font-size: 30px;">
+         DOGGO
+      </div>
+
+
+<div style = "position:absolute; left:310px; top:400px; color:red;font-family:fantasy; font-size: 30px;">
+         JAYZEE 
+      </div>
+
+<div style = "position:absolute; left:910px; top:400px; color:red;font-family:fantasy; font-size: 30px;">
+         BARGIRL 
+      </div>
+
+<div style = "position:absolute; left:310px; top:450px; width:200px; height:200px;   color:red;font-family:fantasy; font-size: 15px;">
+    Last Friday night
+Yeah, we danced on tabletops
+And we took too many shots
+Think we kissed, but I forgot
+Last Friday night
+Yeah, we maxed our credit cards
+And got kicked out of the bar
+      </div>
+
+<div style = "position:absolute; left:910px; top:450px; width:200px; height:200px;   color:red;font-family:fantasy; font-size: 15px;">
+    Last Friday night
+Yeah, we danced on tabletops
+And we took too many shots
+Think we kissed, but I forgot
+Last Friday night
+Yeah, we maxed our credit cards
+And got kicked out of the bar
+      </div>
+
+<div style = "position:absolute; left:610px; top:450px; width:200px; height:200px;   color:red;font-family:fantasy; font-size: 15px;">
+    Last Friday night
+Yeah, we danced on tabletops
+And we took too many shots
+Think we kissed, but I forgot
+Last Friday night
+Yeah, we maxed our credit cards
+And got kicked out of the bar
+      </div>
+
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/DOGGO.HTML">
+<img src="https://i.imgur.com/hBTXZHW.png" width="100" height="30" id="hp5"/>
+
+
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/BARGIRL.HTML">
+<img src="https://i.imgur.com/hBTXZHW.png" width="100" height="30" id="hp6"/>
+
+
+
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/JAYXZEE.HTML">
+<img src="https://i.imgur.com/hBTXZHW.png" width="100" height="30" id="hp4"/>
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQQpStM262nYZ3aMyBokZzKJYjJEhn9XdLg&usqp=CAU"  width="200" height="250" id="hp2"/>
+
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/688/991/c6b"  width="200" height="250" id="hp1"/>
+
+<img src="https://fashionsista.co/wallpaper/wallpaper/20210528/aesthetic-anime-profile-pictures-boy-largest-wallpaper-preview.jpg"  width="200" height="250" id="hp"/>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/menu.html">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_jRCg0OJmBZL4DUt8p28t2KqPT0VCAZFWg&usqp=CAU"  width="50" height="50" id="hp3"/>
+
+<h2 style="position:absolute; left:60px; top:300px;color:red">ALL ACTIVITY</h2>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/try%20lng.html#">
+<img src="https://e7.pngegg.com/pngimages/163/941/png-clipart-computer-icons-x-mark-old-letters-angle-logo.png"  width="50" height="50" id="hp7"/>
+
+
+
+
+
+
+
+
+Profile
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:90px;
+}
+
+
+#hp1  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:220px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners4 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners5 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners6 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners7 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:545px; top:550px;
+  width: 200px;
+  height: 25px;  
+} 
+
+
+body{
+    background-image: url('https://i.pinimg.com/originals/e3/bf/da/e3bfda3a948ccd42b674e79119b4a852.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+img {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+  
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID"> MY PROFILE</h1>
+
+<p id="rcorners1">JAYCEEMATT GARCIA </p>
+<p id="rcorners2">20</p>
+<p id="rcorners3">INC</p>
+<p id="rcorners4">BLC 1 LOT 64 MARS STREET 660</p>
+<p id="rcorners5">PHILIPINES</p>
+<p id="rcorners6">MALE
+<p id="rcorners7"> MILK TEA</P>
+
+
+<div style = "position:absolute; left:290px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         MY NAME
+      </div>
+
+<div style = "position:absolute; left:800px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         AGE
+      </div>
+
+<div style = "position:absolute; left:290px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         RELIGION
+      </div>
+
+<div style = "position:absolute; left:800px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         ADRESS
+      </div>
+
+<div style = "position:absolute; left:290px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         COUNTRY 
+      </div>
+
+<div style = "position:absolute; left:800px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         GENDER
+      </div>
+
+<div style = "position:absolute; left:560px; top:500px; color:red;font-family:fantasy; font-size: 30px;">
+         FAVORITE DRINK
+      </div>
+
+
+
+
+<img src="https://cn.i.cdn.ti-platform.com/cnapac/content/336/showpage/the-amazing-world-of-gumball/sa/showicon.png" alt="Trulli" width="150" height="150">
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/index12.html">
+<img src="https://cdn-icons-png.flaticon.com/512/25/25694.png"  width="50" height="50" id="hp"/>
+
+
+<h2 style="position:absolute; left:60px; top:250px;color:red">ALL ACTIVITY</h2>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/try%20lng.html#">
+<img src="https://e7.pngegg.com/pngimages/163/941/png-clipart-computer-icons-x-mark-old-letters-angle-logo.png"  width="50" height="50" id="hp1"/>
+
+
+
+
+
+
+
+
+
+Favorites
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:130px;
+}
+
+#hp1  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:220px;
+}
+
+body{
+    background-image: url('https://wallpaperaccess.com/full/2641074.gif');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+img {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+}
+</style>
+</head>
+<body>
+
+<title> My Activity </title>
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID"> MY NEW ACTIVITY</h1>
+<a href="https://www.paypal.com/ph/home" >
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNmHxv1yljdrihfkORvo86H9zMFe3yQJBxzQ&usqp=CAU" width=100px" height="100px">
+<p style="text-align:center;color:red"> <mark>PAYPAL KASI MADALING GAMITIN SA KAHIT ANONG GUSTO MONG PAYPMENT METHOD<mark>.</p> 
+<a href="https://twitter.com/" >
+<img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" width=100px" height=100px">
+<p style="text-align:center;"> <mark>PARANG SAME AS REDDIT LNG DIN TO KASO MAS TYPE KO YUNG REDDIT KASI MADALI AT MABILIS GAMITIN YUNG REDDIT<mark> .</p>
+<a href="https://www.netflix.com/ph/" >
+<img src="https://cdn.vox-cdn.com/thumbor/Yq1Vd39jCBGpTUKHUhEx5FfxvmM=/39x0:3111x2048/1200x800/filters:focal(39x0:3111x2048)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" width=100px" height=100px">
+<p style="text-align:center;"> <mark>SYEMPRE LAHAT NAMAN TAYO MAYROONG NETFLIX SINO BANAMAN HINDI GUSTO YNG NETFLIX N CHILL<mark> </p>
+<a href="https://www.lazada.com.ph/">
+<img src="https://ph-test-11.slatic.net/p/9458f732ab10a72a5cb274c77eb3d89f.jpg" width=100px" height=100px">
+<p style="text-align:center;"> <mark>ISA PA TO LAHAT TAYO MERON DIN NETO NAPAKA ESSENTIAL NITO LALONA SA MGA BAGAY NA MARIHAP HANAPIN<mark> </p>
+<a href="https://kissasian.li/">
+<img src="https://pbs.twimg.com/profile_images/1135794190863032320/WqkhWxgY_400x400.png" width=100px" height=100px">
+<p style="text-align:center;"> <mark>ITO NAMAN ABOUT SYA SA K-DRAMA SERIES OR MOVIE GOODS NA GOODS KAHIT ANONG K-DRAMA PA GUSTO MO<mark> </p>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/menu.html">
+<img src="https://d1nhio0ox7pgb.cloudfront.net/_img/g_collection_png/standard/512x512/menu.png"  width="50" height="50" id="hp"/>
+
+<h2 style="position:absolute; left:60px; top:250px;color:red">ALL ACTIVITY</h2>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/try%20lng.html#">
+<img src="https://e7.pngegg.com/pngimages/163/941/png-clipart-computer-icons-x-mark-old-letters-angle-logo.png"  width="50" height="50" id="hp1"/>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Activity 2
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:250px;
+}
+
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/227/759/original/abstract-modern-cool-geometric-pattern-background-vector.jpg');
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID">SECOND ACTIVITY</h1>
+<h2 style="text-align:center;">REDDIT </h2>
+<p  style="text-align:center;"> qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqw </p>
+<h2 style="text-align:center;">TWITTER</h2>
+<p  style="text-align:center;"> qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqw </p>
+<h2 style="text-align:center;">NETFLIX </h2>
+<p  style="text-align:center;"> qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqw </p>
+<h2 style="text-align:center;">LAZADA </h2>
+<p  style="text-align:center;"> qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqw </p>
+<h2 style="text-align:center;">KISSASIAN </h2>
+<p  style="text-align:center;"> qweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqweqw </p>
+
+<form>
+<center>
+<table style="border: 1px solid black; width: 50%; margin-left: auto;
+margin-right: auto; margin-top: 2rem;">
+
+<tr>
+<th rowspan="6" style="border" 2px solid black; color:#FF0D06; font-size: 25px;">Search</th>
+<th colspan="2" style="border" 2px solid black; color:#FF0D06; font-size: 25px;">browser</th>
+<th style="border" 2px solid black; color:#FF0D06; font-size: 25px;">Website</th>
+<th style="border" 2px solid black; color:#FF0D06; font-size: 25px;">links</th>
+</tr>
+
+<tr>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">chrome</td>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">firefox</td>
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;">reddit</td
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;"></td>
+</tr>
+
+<tr>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">chrome</td>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">firefox</td>
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;">twitter</td
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;"></td>
+</tr>
+
+<tr>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">chrome</td>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">firefox</td>
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;">Netflix</td
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;"></td>
+</tr>
+
+<tr>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">chrome</td>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">firefox</td>
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;">lazada</td
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;"></td>
+</tr>
+
+<tr>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">chrome</td>
+<td style="border" 2px solid black; color:#203239; color:#28ff06;  font-size: 20px;">firefox</td>
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;">kissasian</td
+<td style="border" 2px solid black; color:#28ff06; font-size: 20px;"></td>
+</tr>
+
+
+
+<h2 style="position:absolute; left:60px; top:200px;color:red">ALL ACTIVITY</h2>
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/try%20lng.html#">
+<img src="https://e7.pngegg.com/pngimages/163/941/png-clipart-computer-icons-x-mark-old-letters-angle-logo.png"  width="50" height="50" id="hp"/>
+</table>
+</form>
+</center>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Profile doggo
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:90px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners4 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners5 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners6 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners7 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:545px; top:550px;
+  width: 200px;
+  height: 25px;  
+} 
+
+
+body{
+    background-image: url('https://i.pinimg.com/originals/e3/bf/da/e3bfda3a948ccd42b674e79119b4a852.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+img {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+  
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID"> MY PROFILE</h1>
+
+<p id="rcorners1">JAYCEEMATT GARCIA </p>
+<p id="rcorners2">20</p>
+<p id="rcorners3">INC</p>
+<p id="rcorners4">BLC 1 LOT 64 MARS STREET 660</p>
+<p id="rcorners5">PHILIPINES</p>
+<p id="rcorners6">MALE
+<p id="rcorners7"> MILK TEA</P>
+
+
+<div style = "position:absolute; left:290px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         MY NAME
+      </div>
+
+<div style = "position:absolute; left:800px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         AGE
+      </div>
+
+<div style = "position:absolute; left:290px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         RELIGION
+      </div>
+
+<div style = "position:absolute; left:800px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         ADRESS
+      </div>
+
+<div style = "position:absolute; left:290px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         COUNTRY 
+      </div>
+
+<div style = "position:absolute; left:800px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         GENDER
+      </div>
+
+<div style = "position:absolute; left:560px; top:500px; color:red;font-family:fantasy; font-size: 30px;">
+         FAVORITE DRINK
+      </div>
+
+
+
+
+<img src="https://fashionsista.co/wallpaper/wallpaper/20210528/aesthetic-anime-profile-pictures-boy-largest-wallpaper-preview.jpg" width="150" height="150">
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/family.html">
+<img src="https://png.pngtree.com/png-vector/20190417/ourlarge/pngtree-vector-back-icon-png-image_947168.jpg"  width="50" height="50" id="hp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bargirl profile
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:90px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners4 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners5 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners6 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners7 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:545px; top:550px;
+  width: 200px;
+  height: 25px;  
+} 
+
+
+body{
+    background-image: url('https://i.pinimg.com/originals/e3/bf/da/e3bfda3a948ccd42b674e79119b4a852.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+img {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+  
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID"> MY PROFILE</h1>
+
+<p id="rcorners1">BARBIE</p>
+<p id="rcorners2">24</p>
+<p id="rcorners3">INC</p>
+<p id="rcorners4">BLC 1 LOT 64 MARS STREET 660</p>
+<p id="rcorners5">PHILIPINES</p>
+<p id="rcorners6">FEMALE
+<p id="rcorners7"> BUKO JUICE</P>
+
+
+<div style = "position:absolute; left:290px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         MY NAME
+      </div>
+
+<div style = "position:absolute; left:800px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         AGE
+      </div>
+
+<div style = "position:absolute; left:290px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         RELIGION
+      </div>
+
+<div style = "position:absolute; left:800px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         ADRESS
+      </div>
+
+<div style = "position:absolute; left:290px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         COUNTRY 
+      </div>
+
+<div style = "position:absolute; left:800px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         GENDER
+      </div>
+
+<div style = "position:absolute; left:560px; top:500px; color:red;font-family:fantasy; font-size: 30px;">
+         FAVORITE DRINK
+      </div>
+
+
+
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQQpStM262nYZ3aMyBokZzKJYjJEhn9XdLg&usqp=CAU" width="150" height="150">
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/family.html">
+<img src="https://png.pngtree.com/png-vector/20190417/ourlarge/pngtree-vector-back-icon-png-image_947168.jpg"  width="50" height="50" id="hp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Profile doggo
+<!DOCTYPE html>
+<html>
+<body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+#hp  {
+float: left;    
+ margin: 0 0 0 15px;
+ position:absolute; left:100px; top:90px;
+}
+
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners2 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:210px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners3 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners4 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:320px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners5 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:300px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners6 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:805px; top:425px;
+  width: 200px;
+  height: 25px;  
+} 
+
+#rcorners7 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 10px; 
+  position:absolute; left:545px; top:550px;
+  width: 200px;
+  height: 25px;  
+} 
+
+
+body{
+    background-image: url('https://i.pinimg.com/originals/e3/bf/da/e3bfda3a948ccd42b674e79119b4a852.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+img {
+
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+  
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;color:red;border:BLACK 2px SOLID"> MY PROFILE</h1>
+
+<p id="rcorners1">DOGGO</p>
+<p id="rcorners2">7</p>
+<p id="rcorners3">NONE</p>
+<p id="rcorners4">BLC 1 LOT 64 MARS STREET 660</p>
+<p id="rcorners5">PHILIPINES</p>
+<p id="rcorners6">MALE
+<p id="rcorners7"> DOG FOOD</P>
+
+
+<div style = "position:absolute; left:290px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         MY NAME
+      </div>
+
+<div style = "position:absolute; left:800px; top:190px; color:red;font-family:fantasy; font-size: 30px;">
+         AGE
+      </div>
+
+<div style = "position:absolute; left:290px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         RELIGION
+      </div>
+
+<div style = "position:absolute; left:800px; top:300px; color:red;font-family:fantasy; font-size: 30px;">
+         ADRESS
+      </div>
+
+<div style = "position:absolute; left:290px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         COUNTRY 
+      </div>
+
+<div style = "position:absolute; left:800px; top:405px; color:red;font-family:fantasy; font-size: 30px;">
+         GENDER
+      </div>
+
+<div style = "position:absolute; left:560px; top:500px; color:red;font-family:fantasy; font-size: 30px;">
+         FAVORITE DRINK
+      </div>
+
+
+
+
+<img src="https://i.kym-cdn.com/photos/images/newsfeed/001/688/991/c6b" width="150" height="150">
+
+<a href="file:///C:/Users/conan%20edogawa/Documents/aaaaa%202nd/family.html">
+<img src="https://png.pngtree.com/png-vector/20190417/ourlarge/pngtree-vector-back-icon-png-image_947168.jpg"  width="50" height="50" id="hp"/>
+
+
+
